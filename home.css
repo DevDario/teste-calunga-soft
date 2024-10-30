@@ -29,7 +29,13 @@ body {
 }
 
 .section {
-  margin: 8rem 9rem auto 4rem;
+  margin: 2rem auto auto 4rem;
+}
+.section .container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  margin-bottom: 4rem;
 }
 
 .navbar {
@@ -58,4 +64,60 @@ body {
   color: var(--dark-main-color);
   cursor: pointer;
   font-weight: 200;
+}
+
+.item-card {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  width: 252px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  position: relative;
+}
+.item-card .item-card-image-box .item-card-image {
+  width: 250px;
+  height: 300px;
+  border-radius: 13px;
+}
+.item-card .item-card-image-box .item-card-like {
+  position: absolute;
+  cursor: pointer;
+  top: 1rem;
+  left: 1rem;
+  width: 30px;
+  height: 30px;
+  background-color: #fcfcfb;
+  border-radius: 13px;
+}
+.item-card .item-card-footer {
+  margin-top: 11px;
+  display: flex;
+  flex-direction: column;
+}
+.item-card .item-card-footer .item-card-footer-about {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+}
+.item-card .item-card-footer .item-card-footer-about .item-name, .item-card .item-card-footer .item-card-footer-about .item-price {
+  font-size: 16px;
+  align-self: center;
+}
+.item-card .item-card-footer .item-card-footer-about .item-card-price-box {
+  align-items: flex-end;
+  background-color: #f0f0f0;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 4px;
+  border-radius: 5px;
+}
+.item-card .item-card-footer .item-card-footer-description p {
+  color: #a9a9a9;
 }/*# sourceMappingURL=home.css.map */
