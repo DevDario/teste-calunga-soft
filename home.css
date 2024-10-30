@@ -120,4 +120,13 @@ body {
 }
 .item-card .item-card-footer .item-card-footer-description p {
   color: #a9a9a9;
+}
+
+@media screen and (max-width: 720px) {
+  .section .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+  }
 }/*# sourceMappingURL=home.css.map */

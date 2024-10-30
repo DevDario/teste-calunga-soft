@@ -144,3 +144,14 @@ body{
         }
     }
 }
+
+@media screen and (max-width:720px) {
+   .section{
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-self: center;
+    }
+}
+}
