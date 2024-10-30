@@ -9,10 +9,8 @@
 
 :root {
   --dark-color:#1e1e1e;
-  --green-main-color:#36cc84;
-  --white-main-color:#f4f4ea;
-  --darker-white-main-color:#d4d4cb;
-  --darker-green-color:hsl(151, 58%, 40%);
+  --white-main-color:#fff;
+  --darker-white-main-color:#ededec;
   scroll-behavior: smooth;
 }
 
@@ -25,4 +23,39 @@ ul {
   list-style: none;
 }
 
-/* mixins *//*# sourceMappingURL=home.css.map */
+/* mixins */
+body {
+  background-color: var(--white-main-color);
+}
+
+.section {
+  margin: 8rem 9rem auto 4rem;
+}
+
+.navbar {
+  background-color: var(--white-main-color);
+  border-bottom: 1px solid var(--darker-white-main-color);
+}
+.navbar .navbar-container {
+  padding: 20px 15px 20px 15px;
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
+  justify-content: row;
+  align-items: center;
+}
+.navbar .navbar-container .navbar-title-container .main-title {
+  color: var(--dark-main-color);
+  cursor: pointer;
+}
+.navbar .navbar-container .menu-options-container .menu-list-items {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 40px;
+}
+.navbar .navbar-container .menu-options-container .menu-list-items .list-item a {
+  color: var(--dark-main-color);
+  cursor: pointer;
+  font-weight: 200;
+}/*# sourceMappingURL=home.css.map */
