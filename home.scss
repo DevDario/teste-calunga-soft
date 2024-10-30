@@ -1,0 +1,40 @@
+*{
+    font-family: 'Inter',Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+}
+
+:root{
+    --dark-color:#1e1e1e;
+    --green-main-color:#36cc84;
+    --white-main-color:#f4f4ea;
+
+    --darker-white-main-color:#d4d4cb;
+    --darker-green-color:hsl(151, 58%, 40%);
+
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+    color: var(--white-main-color);
+}
+
+ul{
+    list-style: none;
+}
+
+/* mixins */
+
+@mixin row-aligned(){
+    display: flex;
+    flex-direction: row;
+}
+
+@mixin column-aligned(){
+    display: flex;
+    flex-direction: column;
+}
