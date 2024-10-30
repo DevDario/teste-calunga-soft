@@ -122,6 +122,136 @@ body {
   color: #a9a9a9;
 }
 
+.details-section {
+  margin-top: 4rem;
+}
+.details-section .details-section-container {
+  display: flex;
+  flex-direction: row;
+  width: 85%;
+  height: 520px;
+}
+.details-section .details-section-container .product-details-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 4rem;
+}
+.details-section .details-section-container .product-details-box .product-image {
+  width: 500px;
+  height: 520px;
+  border-radius: 30px;
+}
+.details-section .details-section-container .product-details-box .product-info .product-name {
+  font-size: 32px;
+}
+.details-section .details-section-container .product-details-box .product-info .product-description {
+  color: #a9a9a9;
+}
+.details-section .details-section-container .product-details-box .product-info .product-sizes {
+  margin: 0.7rem auto auto auto;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.details-section .details-section-container .product-details-box .product-info .product-sizes .product-size-box {
+  margin-top: 0.7rem;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+.details-section .details-section-container .product-details-box .product-info .product-sizes .product-size-box .size-box {
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+  outline: 1.4px solid #1e1e1e;
+  align-self: center;
+  cursor: pointer;
+  transition: all 300ms ease-out;
+}
+.details-section .details-section-container .product-details-box .product-info .product-sizes .product-size-box .size-box p {
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+  align-items: center;
+  padding: 8px;
+}
+.details-section .details-section-container .product-details-box .product-info .product-sizes .product-size-box .size-box:hover {
+  background-color: #1e1e1e;
+  transition: all 300ms ease-in;
+}
+.details-section .details-section-container .product-details-box .product-info .product-sizes .product-size-box .size-box:hover p {
+  color: #fff;
+}
+.details-section .details-section-container .product-details-box .product-info .others {
+  margin: 1rem auto 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.details-section .details-section-container .product-details-box .product-info .others .recomendations {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+.details-section .details-section-container .product-details-box .product-info .others .recomendations .product-box {
+  width: 100px;
+  height: 100px;
+  border-radius: 12px;
+  outline: 1.4px solid #1e1e1e;
+  align-self: center;
+  cursor: pointer;
+}
+.details-section .details-section-container .product-details-box .product-info .others .recomendations .product-box img {
+  width: 92px;
+  height: 92px;
+  border-radius: 9px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 4px auto;
+}
+.details-section .details-section-container .product-details-box .product-info .bottom-details {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.details-section .details-section-container .product-details-box .product-info .bottom-details .bottom-title {
+  margin-bottom: 1rem;
+}
+.details-section .details-section-container .product-details-box .product-info .bottom-details .product-colors {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+.details-section .details-section-container .product-details-box .product-info .bottom-details .product-colors .color-box {
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  outline: 1.4px solid #1e1e1e;
+  border-radius: 100%;
+  background-color: var(--dark-color);
+}
+.details-section .details-section-container .product-details-box .product-info .bottom-details .product-colors #beige {
+  background-color: beige;
+}
+.details-section .details-section-container .product-details-box .product-info .bottom-details .product-colors #red {
+  background-color: rgb(250, 81, 81);
+}
+.details-section .details-section-container .product-details-box .product-info .bottom-details .product-price h3 {
+  margin-top: 10px;
+  font-size: 22px;
+}
+.details-section .details-section-container .product-details-box .product-info .bottom-details .buy-button button {
+  margin-top: 20px;
+  padding: 20px 100px;
+  background-color: #1e1e1e;
+  color: var(--white-main-color);
+  border-radius: 60px;
+  cursor: pointer;
+}
+
 @media screen and (max-width: 720px) {
   .section .container {
     display: flex;
